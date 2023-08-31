@@ -51,7 +51,6 @@ module.exports = {
   getSentMessages,
   getRecentSentMessages,
   sendMessage,
-  deleteAllMessages,
 };
 
 /* not working for some reason

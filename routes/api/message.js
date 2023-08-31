@@ -5,7 +5,6 @@ const {
   getSentMessages,
   getRecentSentMessages,
   sendMessage,
-  deleteAllMessages,
 } = require('../../controllers/message');
 
 router.get('/', getSentMessages);
