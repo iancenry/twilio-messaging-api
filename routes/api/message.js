@@ -11,6 +11,5 @@ const {
 router.get('/', getSentMessages);
 router.get('/recent', getRecentSentMessages);
 router.post('/send', sendMessage);
-router.delete('/delete', deleteAllMessages);
 
 module.exports = router;
