@@ -15,7 +15,8 @@ const sendMessage = async (e) => {
     // throw error
     alert('Ensure you input a value in both fields!');
   } else {
-    const response = await fetch('http://localhost:5000/api/message/send', {
+    //no need for http.... since it's on same server
+    const response = await fetch('/api/message/send', {
       method: 'POST',
       body: JSON.stringify(formData),
       headers: {
